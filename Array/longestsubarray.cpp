@@ -32,10 +32,10 @@ int main(){
 	return 0;
 }
 
-Time complexity : O(N^2)
+/*Time complexity : O(N^2)
 	Two nested loops are being used,each running N times
 Space complexity : O(1)
-   	No extra space is being used
+   	No extra space is being used*/
 
 
 //Better Approach (Using Hashing):
@@ -78,7 +78,7 @@ int main(){
 	return 0;
 }
 
-Time Complexity :
+/*Time Complexity :
 	Ordered map - O(N*logN)
 	Searching an element - logN (Binary search)
 	For loop - O(N)
@@ -92,7 +92,7 @@ Time Complexity :
 	For loop - O(N)
 	
 Space Complexity - O(N)
-	As map data structure is being used
+	As map data structure is being used*/
 
 
 //Optimal Approach : 
@@ -127,12 +127,12 @@ int main(){
 	return 0;
 }
 
-Time Complexity - O(N+N) or O(2N)
+/*Time Complexity - O(N+N) or O(2N)
 	Outer loop can run for n times and in the inner loop i can go up to j hence every time it doesn't
 	run till n but can run n times in total
 	
 Space Complexity - O(1)
-	No extra space is used
+	No extra space is used*/
 
 
 //O(N) Approach : 
@@ -171,8 +171,8 @@ int main(){
 	return 0;
 }
 
-Time Complexity - O(N);
+/*Time Complexity - O(N);
 	For loop is being used
 Space Complexity - O(1)
-	No extra space is used
+	No extra space is used*/
 
