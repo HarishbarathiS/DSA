@@ -9,10 +9,10 @@ using namespace std;
 
 class Solution{
 	public:
-		void leader(int arr[],int n){
+	void leader(int arr[],int n){
         vector<int> vec;
-        int i = n-1;
-        int j = n-2;
+        int i = n-1; // pointer
+        int j = n-2; // pointer
         while(j>=0){
             if(arr[j] >= arr[i]){
                 vec.push_back(arr[j]);
@@ -38,3 +38,9 @@ int main(){
 	obj.leader(arr,n);
 	return 0;
 }
+/*
+Time Complexity - O(N)
+	While loop is used
+Space Complexity - O(N)
+	Vector is used to store the leader elements
+*/
